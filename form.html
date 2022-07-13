@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+
+    <form>
+        <div>
+        <label for="text2">text</label>
+        <input type="text" id="text2" value="текст по умолчанию">
+    </div>
+
+
+    <div>
+        <label for="email">email</label>
+        <input type="email" id="email" placeholder="Введите email">
+    </div>
+
+
+    <div>
+        <label for="password">password</label>
+        <input type="password" id="password">
+    </div>
+
+
+    <div>
+        <label for="number">number</label>
+        <input type="number" id="number" min="0">
+    </div>
+
+
+    <div>
+        <label for="range">range</label>
+        <input type="range" id="range" min="0"
+        max="10" step="2">
+    </div>
+
+
+    <div>
+        <label for="date">date</label>
+        <input type="date" id="date">
+    </div>
+
+    <div>
+        <label for="color">color</label>
+        <input type="color" id="color">
+    </div>
+
+<div>
+    <label for="message">Message</label>
+    <br>
+    <textarea id="message" cols="15" rows="10"></textarea>
+</div>
+<div>
+    <label for="pol">Ваш пол</label>
+    <select id="pol">
+        <option value="" selected>Female</option>
+        <option value="">Male</option>
+    </select>
+</div>
+
+<div>
+    <label>Количество работ</label>
+    <input type="radio" name="work">1
+    <input type="radio" name="work">2
+    <input type="radio" name="work">3
+    <input type="radio" name="work">5+
+
+</div>
+
+<div>
+    <label>Любимая еда</label>
+    <input type="checkbox" name="food">Картошка
+    <input type="checkbox" name="food">Яблоки
+    <input type="checkbox" name="food">молюски
+    <input type="checkbox" name="food">мясо
+
+</div>
+    <!-- <input type="submit" value ="отправить форму"> -->
+    <button type="submit">отправить форму</button>
+
+    </form>
+
+
+</body>
+</html>
